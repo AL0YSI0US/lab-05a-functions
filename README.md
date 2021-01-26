@@ -9,13 +9,13 @@ included within the assignment.
 ### Author: Aloysious
 
 ### Links and Resources
-* [submission PR-1](https://github.com/AL0YSI0US/lab-05a-functions/pull/1)
-* [submission PR-2](https://github.com/AL0YSI0US/lab-05a-functions/pull/2)
-* [submission PR-3](https://github.com/AL0YSI0US/lab-05a-functions/pull/3)
-* [submission PR-4](https://github.com/AL0YSI0US/lab-05a-functions/pull/4)
-* [submission PR-5](https://github.com/AL0YSI0US/lab-05a-functions/pull/5)
-* [submission PR-6](https://github.com/AL0YSI0US/lab-05a-functions/pull/6)
-* [submission PR-7](https://github.com/AL0YSI0US/lab-05a-functions/pull/7)
+* [Submission PR-1](https://github.com/AL0YSI0US/lab-05a-functions/pull/1)
+* [Submission PR-2](https://github.com/AL0YSI0US/lab-05a-functions/pull/2)
+* [Submission PR-3](https://github.com/AL0YSI0US/lab-05a-functions/pull/3)
+* [Submission PR-4](https://github.com/AL0YSI0US/lab-05a-functions/pull/4)
+* [Submission PR-5](https://github.com/AL0YSI0US/lab-05a-functions/pull/5)
+* [Final Submission PR-6](https://github.com/AL0YSI0US/lab-05a-functions/pull/6)
+* [Stretch Goal PR-7](https://github.com/AL0YSI0US/lab-05a-functions/pull/7)
 
 ### Reflections and Comments
 
