@@ -29,9 +29,9 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-  let product = a*b;
-  let message = `The product of ${a} and ${b} is ${product}.`;
-  return [product, message];
+  let theProduct = a*b;
+  let message = `The product of ${a} and ${b} is ${theProduct}.`;
+  return [theProduct, message];
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -78,8 +78,8 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-  let theSum =sum(sum(testArray[0], testArray[1])[0], testArray[2])[0];
-  let message = `${testArray[0]},${testArray[1]},${testArray[2]} was passed in as an array of numbers, and ${theSum} is their sum.`;
+  let theSum =sum(sum(sumArr[0], sumArr[1])[0], sumArr[2])[0];
+  let message = `${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${theSum} is their sum.`;
   return [theSum, message];
 }
 
@@ -101,8 +101,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-  let theProduct = multiply(multiply(testArray[0], testArray[1])[0], testArray[2])[0];
-  let message = `The numbers ${testArray[0]},${testArray[1]},${testArray[2]} have a product of ${theProduct}.`;
+  let theProduct = multiply(multiply(multArr[0], multArr[1])[0], multArr[2])[0];
+  let message = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${theProduct}.`;
   return [theProduct, message];
 }
 
@@ -127,10 +127,15 @@ Test this function by hand in the console to get it working, and when you think 
 let testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
 
 function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-
+  let theProduct = 1;
+  for (let i = 0; i < dynamicArray.length; i++){
+  theProduct =multiply(theProduct, dynamicArray[i])[0];
 }
+let message = `The numbers ${dynamicArray} have a product of ${theProduct}.`;
 
+return [theProduct, message];
+}
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyAnyArray(testDynamicArray);
+testMultiplyAnyArray(testDynamicArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
